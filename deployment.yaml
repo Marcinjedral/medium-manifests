@@ -20,7 +20,7 @@ spec:
     metadata:
       creationTimestamp:
       labels:
-        app: kustomize-test
+        app: kustomize-test1
     spec:
       containers:
       - image: nginx
