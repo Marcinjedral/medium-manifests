@@ -23,7 +23,7 @@ spec:
         app: kustomize-test
     spec:
       containers:
-      - image: nginx
+      - image: nginx:alpine
         name: nginx
         resources: {}
 status: {}
