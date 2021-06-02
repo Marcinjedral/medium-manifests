@@ -23,7 +23,7 @@ spec:
         app: kustomize-test
     spec:
       containers:
-      - image: nginx:1.20-alpine-perl
-        name: nginx
+      - image: apache
+        name: apache
         resources: {}
 status: {}
