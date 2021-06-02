@@ -23,7 +23,7 @@ spec:
         app: kustomize-test
     spec:
       containers:
-      - image: apache
-        name: apache
+      - image: httpd
+        name: httpd
         resources: {}
 status: {}
